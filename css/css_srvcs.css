@@ -1,0 +1,45 @@
+body{
+    background:#0d0e1f;
+    font-family: 'Inconsolata', monospace;
+    font-weight:bold;
+    color:rgb(49, 46, 46);
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+  }
+  .box-wrap{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .skil{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffffd7;
+  }
+  .box{
+    padding:1px;
+    margin:2%;
+    background: #323946;
+    width:15%;
+    border:1px solid #0ef;
+    box-shadow:0 2px 3px 0px #0ef;
+    border-radius:3px;
+    transition:.2s all; 
+  }
+  p{
+    color: #000000;
+  }
+  .box-wrap:hover .box{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+  }
+  .box-wrap:hover .box:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(18, 18, 44, 0.125);
+  }
