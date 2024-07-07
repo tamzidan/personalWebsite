@@ -127,7 +127,7 @@ span{
     border: 5vw;
     border-radius: 50%;
     border-color: darkorange;
-    width: 10vw;
+    width: 15em;
     opacity: 0;
     animation: zoomIn 1s ease forwards;
     animation-delay: .7s;
